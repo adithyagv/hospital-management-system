@@ -1,0 +1,73 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 50px;
+  background-image: url('https://img.freepik.com/premium-photo/photo-portrait-young-group-doctors-standing_763111-296809.jpg?ga=GA1.1.976560844.1727199326&semt=ais_hybrid');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.login-container,
+.hospital-crm {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  width: 400px;
+}
+
+.login-container h2,
+.hospital-crm h1,
+.hospital-crm h2 {
+  margin-bottom: 20px;
+}
+
+.login-container label,
+.hospital-crm label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.announcement-form div {
+  margin-bottom: 15px;
+}
+
+.login-container input,
+.hospital-crm input,
+.hospital-crm textarea,
+.hospital-crm select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.login-container input:focus,
+.hospital-crm input:focus,
+.hospital-crm textarea:focus,
+.hospital-crm select:focus {
+  border-color: #28a745;
+}
+
+.login-container button,
+.hospital-crm button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover,
+.hospital-crm button:hover {
+  background-color: #218838;
+}
