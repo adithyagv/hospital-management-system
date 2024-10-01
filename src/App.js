@@ -28,7 +28,7 @@ function App() {
     console.log('Sending email with data:', { group, announcement, schedule, emails: selectedEmails });
 
     try {
-      const response = await fetch('http://localhost:5000/send-email', {
+      const response = await fetch('https://hospital-management-system-production-a773.up.railway.app/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

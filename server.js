@@ -38,7 +38,7 @@ console.log(req.body)
     // Send email
     try {
       await transporter.sendMail(mailOptions);
-      console.log(`Email sent to ${email[0]}`);
+      console.log(`Email sent to ${email}`);
     } catch (error) {
       console.error('Error sending email:', error);
       return res.status(500).json({ message: 'Failed to send email', error: error.message });
