@@ -45,6 +45,7 @@ function App() {
       if (response.status === 200) {
         alert(data.message);
       } else {
+        console.log(data)
         alert('Error sending email: ' + data.message);
       }
 
